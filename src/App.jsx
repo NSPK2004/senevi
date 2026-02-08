@@ -693,9 +693,15 @@ const Contact = () => {
                 </span>
               </button>
               <a
-                href="mailto:nspwwe@gmail.com"
-                className="text-slate-300 hover:text-white font-medium flex items-center gap-2 underline underline-offset-8 decoration-slate-600 hover:decoration-blue-500 transition-all"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=navindu@nspdigital.social&su=Project Inquiry for NSP"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 p-4 bg-slate-900 border border-slate-800 rounded-xl hover:border-blue-500 transition-all group"
               >
+                <Mail className="text-blue-400" size={20} />
+                <span className="text-white font-medium">
+                  navindu@nspdigital.social
+                </span>
                 Or email me directly <ArrowRight size={16} />
               </a>
             </div>
@@ -802,9 +808,10 @@ const Footer = () => {
             <Linkedin />
           </a>
           <a
-            href="mailto:nspwwe@gmail.com?subject=Project Inquiry"
-            className="text-slate-400 hover:text-white transition-colors"
-            title="Send Email"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=navindu@nspdigital.social&su=Agency Inquiry"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-slate-300 hover:text-white font-medium flex items-center gap-2 underline underline-offset-8 decoration-slate-600 hover:decoration-blue-500 transition-all"
           >
             <Mail />
           </a>
